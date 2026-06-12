@@ -1,0 +1,64 @@
+.welcome-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 clamp(18px, 5vw, 22px) clamp(30px, 6vw, 38px);
+  background: #f7f8f9;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.welcome-title {
+  font-size: clamp(26px, 4vw, 28px);
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.15;
+  margin-bottom: 2px;
+}
+
+.welcome-subtitle {
+  font-size: clamp(14px, 2vw, 15px);
+  color: #a3a3a3;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.welcome-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+  font-family: inherit;
+}
+
+.btn:hover { opacity: 0.9; }
+.btn:active { opacity: 0.8; }
+
+.btn-primary {
+  background: #6c3af5;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #e8e0ff;
+  color: #1a1a1a;
+  border: 1px solid #d1c4fa;
+}
