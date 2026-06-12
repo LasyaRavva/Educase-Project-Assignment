@@ -27,13 +27,5 @@ npm install -g vercel
 vercel
 ```
 
-Or connect your GitHub repo at [vercel.com](https://vercel.com) — it will auto-detect Vite and deploy.
+or connect your GitHub repo at [vercel.com](https://vercel.com) — it will auto-detect Vite and deploy.
 
-## Deploy to Netlify
-
-```bash
-npm run build
-# drag & drop the `dist/` folder at netlify.com/drop
-```
-
-Or connect via Netlify dashboard with build command `npm run build` and publish directory `dist`.
